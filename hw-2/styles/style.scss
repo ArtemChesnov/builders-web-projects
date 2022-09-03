@@ -1,0 +1,35 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #FF8E00;
+    background-color: #FFC173;
+
+    button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #A65C00;
+        }
+
+        &.active {
+            background-color: #FF8E00;
+            color: #fff;
+        }
+    }
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #FF8E00;
+    border-top: none;
+}
+
+.btn_calc {
+    margin-top: 15px;
+}
